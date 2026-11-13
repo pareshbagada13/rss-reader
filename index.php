@@ -15,7 +15,7 @@ $activeKey = isset($_GET['feed']) && (array_key_exists($_GET['feed'], $config['f
 
 $allItems  = [];
 $errors    = [];
-$pageTitle = 'All Gujarat News';
+$pageTitle = 'All News';
 $pageDesc  = 'Combined live feed from all news sources';
 
 if ($activeKey === 'all') {
